@@ -1,0 +1,74 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.search-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: 18px;
+}
+
+.search-icon,
+.clear-icon {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.results-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.result-card {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.result-card:last-child {
+    border-bottom: none;
+}
+
+.highlighted {
+    background-color: lightgoldenrodyellow;
+}
+
+.empty-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight {
+    background-color: blue;
+    color: white;
+}
+
+.found-in-items {
+    border-bottom: 1px black solid;
+
+    height: 23px;
+    padding: 1px 8px;
+    margin-top: 3px;
+
+}
+
+.item-name {
+    margin-bottom: 5px;
+}
